@@ -13,7 +13,7 @@
             <span class="logo">Django Validador</span>
             {% if request.user.is_authenticated %}
             <ul class="menu">
-                <li {% if section=="dashboard" %} class="selected" {% endif %}>
+                <li {% if section == 'dashboard' %} class="selected" {% endif %}>
                     <a href="{% url 'dashboard' %}">Menu principal</a>
                 </li>
             </ul>
